@@ -1,0 +1,135 @@
+@media only screen and (min-width: 450px) {
+  main {
+    font-size: 75%;
+  }
+  main {
+    font-size: 75%;
+  }
+}
+
+main {
+  margin: 3rem auto 8rem auto;
+  max-width: 100vh;
+  min-height: 100vh;
+}
+
+main h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question-count-container {
+  display: flex;
+  margin: 4rem 1rem 0.5rem 1rem;
+}
+
+.question-count p {
+  font-size: 2rem;
+}
+
+.question-count {
+  flex-grow: 1;
+}
+
+.result-count-container {
+  justify-content: center;
+  margin: 5rem 0rem;
+}
+
+.result-count-container p,
+p span {
+  font-size: 3rem;
+}
+
+span {
+  color: var(--ternary-color);
+  font-size: 2rem;
+}
+
+.question {
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.quiz-options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 2rem 1rem;
+}
+
+.options {
+  font-size: 1.5rem;
+  background-color: var(--fourth-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.options:hover {
+  transform: scale(1.02);
+}
+
+.next-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.next-btn-container button {
+  font-size: 2rem;
+  padding: 0.8rem;
+  margin: 0.5rem 0rem;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+  background-color: var(--fifth-color);
+  border: none;
+  color: var(--secondary-color);
+}
+
+.next-btn-container img {
+  width: 2rem;
+}
+
+.next-btn {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.next-btn:hover {
+  background-color: var(--sixth-color);
+}
+
+.correct-answer {
+  background-color: var(--correct-color);
+}
+
+.wrong-answer {
+  background-color: var(--wrong-color);
+}
+.submit-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  font-size: 2rem;
+  padding: 0.8rem 2.5rem;
+  margin: 2rem 0rem;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+  background-color: var(--fifth-color);
+  border: none;
+  color: var(--secondary-color);
+}
+
+.submit-btn:hover {
+  background-color: var(--sixth-color);
+}

@@ -15,6 +15,13 @@ Live Link: [Quiz Click](https://quiz-click-official.netlify.app/)
 - Footer contains links to all my social media handles.
 
 
+## Instructions on How to Run your app locally
+- Open any code editor preferably VS Code.
+- In the terminal run this command git clone https://github.com/khushijohri2001/Quiz-Click.git.
+- Go inside the application folder using cd Quiz-Click.
+- Click on Go Live on status bar (bottom right on VS Code) for starting the application.
+
+
 ## Demonstration
 
 ### Home
@@ -34,6 +41,7 @@ https://user-images.githubusercontent.com/65448358/160256201-f1581787-083e-4e40-
 
 
 https://user-images.githubusercontent.com/65448358/160256218-0a2b87ed-f823-4728-978e-09e39ad1ad7b.mp4
+
 
 
 
